@@ -18,7 +18,7 @@
         "yiisoft/yii2": "2.*",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "cebe/yii2-gravatar": "1.*",
-        "almasaeed2010/adminlte": "dev-master",
+        "almasaeed2010/adminlte": "dev-erp",
         "rmrevin/yii2-fontawesome": "~2.9"
     },
     "autoload": {
