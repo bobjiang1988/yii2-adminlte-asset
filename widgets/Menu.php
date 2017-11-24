@@ -1,5 +1,5 @@
 <?php
-namespace dmstr\widgets;
+namespace bobjiang1988\widgets;
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Url;

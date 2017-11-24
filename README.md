@@ -24,13 +24,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install AdminLTE v2 run:
 
 ```
-composer require dmstr/yii2-adminlte-asset "^2.1"
+composer require bobjiang1988/yii2-adminlte-asset "^2.1"
 ```
 
 To install AdminLTE v1 run:
 
 ```
-composer require dmstr/yii2-adminlte-asset "^1"
+composer require bobjiang1988/yii2-adminlte-asset "^1"
 ```
 
 FAQ
@@ -66,7 +66,7 @@ For Yii 2 [Advanced Application Template](https://github.com/yiisoft/yii2-app-ad
     'view' => [
          'theme' => [
              'pathMap' => [
-                '@app/views' => '@vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
+                '@app/views' => '@vendor/bobjiang1988/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
              ],
          ],
     ],
@@ -81,7 +81,7 @@ For [phd5](https://github.com/dmstr/phd5-app) application
     'view' => [
         'theme' => [
             'pathMap' => [
-                '@app/views' => '@vendor/dmstr/yii2-adminlte-asset/example-views/testing/app'
+                '@app/views' => '@vendor/bobjiang1988/yii2-adminlte-asset/example-views/testing/app'
             ],
         ],
     ],
@@ -96,7 +96,7 @@ Therefore it is recommended to **copy the views into your application** and adju
 Customization
 -------------
 
-- Copy files from `vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app` (or other theme) to `@app/views`.
+- Copy files from `vendor/bobjiang1988/yii2-adminlte-asset/example-views/yiisoft/yii2-app` (or other theme) to `@app/views`.
 - Remove the custom `view` configuration from your application by deleting the path mappings, if you have made them before.
 - Edit your views adhering to html markup `vendor/almasaeed2010/adminlte/pages`
 
@@ -121,7 +121,7 @@ class AdminLtePluginAsset extends AssetBundle
         // more plugin CSS here
     ];
     public $depends = [
-        'dmstr\web\AdminLteAsset',
+        'bobjiang1988\web\AdminLteAsset',
     ];
 }
 ```
@@ -138,7 +138,7 @@ By default the extension uses blue skin for AdminLTE. You can change it in confi
 'components' => [
     'assetManager' => [
         'bundles' => [
-            'dmstr\web\AdminLteAsset' => [
+            'bobjiang1988\web\AdminLteAsset' => [
                 'skin' => 'skin-black',
             ],
         ],
@@ -148,7 +148,7 @@ By default the extension uses blue skin for AdminLTE. You can change it in confi
 
 And then just replace class of body `skin-blue`. You can use `AdminLteHelper::skinClass()` if you don't want to alter every view file when you change skin color. 
 ```html
-<body class="<?= \dmstr\helpers\AdminLteHelper::skinClass() ?>">
+<body class="<?= \bobjiang1988\helpers\AdminLteHelper::skinClass() ?>">
 ```
 
 **Note:** Use `AdminLteHelper::skinClass()` only if you override the skin through configuration. Otherwise you will not get the correct css class of body.
@@ -247,7 +247,7 @@ if (YII_ENV_DEV) {
             'crud' => [
                 'class' => 'yii\gii\generators\crud\Generator',
                 'templates' => [
-                    'adminlte' => '@vendor/dmstr/yii2-adminlte-asset/gii/templates/crud/simple',
+                    'adminlte' => '@vendor/bobjiang1988/yii2-adminlte-asset/gii/templates/crud/simple',
                 ]
             ]
         ],
@@ -278,5 +278,5 @@ Further Information
 
 For AdminLTE documentation, please read https://almsaeedstudio.com/themes/AdminLTE/documentation/index.html
 
-> Namespacing rules follow the Yii 2.0 framework structure, eg. `dmstr\web` for the Asset Bundle.
+> Namespacing rules follow the Yii 2.0 framework structure, eg. `bobjiang1988\web` for the Asset Bundle.
  

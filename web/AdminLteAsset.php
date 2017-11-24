@@ -1,5 +1,5 @@
 <?php
-namespace dmstr\web;
+namespace bobjiang1988\web;
 
 use yii\base\Exception;
 use yii\web\AssetBundle as BaseAdminLteAsset;

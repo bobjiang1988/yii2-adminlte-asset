@@ -87,7 +87,7 @@ $menuItems[] = [
     'visible' => true,
 ];
 
-echo dmstr\widgets\Menu::widget([
+echo bobjiang1988\widgets\Menu::widget([
     'options' => ['class' => 'sidebar-menu'],
     'items' => \yii\helpers\ArrayHelper::merge($favouriteMenuItems, $menuItems),
 ]);

@@ -4,7 +4,7 @@ return [
     'aliases' => [
         'repo' => '/repo',
         'tests/app' => '@repo/tests/_app',
-        'dmstr' => '@repo'
+        'bobjiang1988' => '@repo'
     ],
     'controllerMap' => [
         'test' => 'tests\app\controllers\TestController',
