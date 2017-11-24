@@ -1,6 +1,6 @@
 <?php
 use yii\widgets\Breadcrumbs;
-use bobjiang1988\widgets\Alert;
+use dmstr\widgets\Alert;
 
 ?>
 <div class="content-wrapper">

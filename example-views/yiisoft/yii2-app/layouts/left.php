@@ -26,7 +26,7 @@
         </form>
         <!-- /.search form -->
 
-        <?= bobjiang1988\widgets\Menu::widget(
+        <?= dmstr\widgets\Menu::widget(
             [
                 'options' => ['class' => 'sidebar-menu tree', 'data-widget'=> 'tree'],
                 'items' => [

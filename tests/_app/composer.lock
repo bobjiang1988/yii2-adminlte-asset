@@ -526,16 +526,16 @@
             "time": "2016-08-30T16:08:34+00:00"
         },
         {
-            "name": "bobjiang1988/yii2-bootstrap",
+            "name": "dmstr/yii2-bootstrap",
             "version": "0.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/bobjiang1988/yii2-bootstrap.git",
+                "url": "https://github.com/dmstr/yii2-bootstrap.git",
                 "reference": "df2afef6509390e6d754c16b72f3c5a980169e19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobjiang1988/yii2-bootstrap/zipball/df2afef6509390e6d754c16b72f3c5a980169e19",
+                "url": "https://api.github.com/repos/dmstr/yii2-bootstrap/zipball/df2afef6509390e6d754c16b72f3c5a980169e19",
                 "reference": "df2afef6509390e6d754c16b72f3c5a980169e19",
                 "shasum": ""
             },
@@ -545,7 +545,7 @@
             "type": "yii2-extension",
             "autoload": {
                 "psr-4": {
-                    "bobjiang1988\\bootstrap\\": ""
+                    "dmstr\\bootstrap\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -567,16 +567,16 @@
             "time": "2016-04-22T18:33:17+00:00"
         },
         {
-            "name": "bobjiang1988/yii2-db",
+            "name": "dmstr/yii2-db",
             "version": "0.9.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/bobjiang1988/yii2-db.git",
+                "url": "https://github.com/dmstr/yii2-db.git",
                 "reference": "b368a85dc70c2feff9cf7ab0670d01d097706ee7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobjiang1988/yii2-db/zipball/b368a85dc70c2feff9cf7ab0670d01d097706ee7",
+                "url": "https://api.github.com/repos/dmstr/yii2-db/zipball/b368a85dc70c2feff9cf7ab0670d01d097706ee7",
                 "reference": "b368a85dc70c2feff9cf7ab0670d01d097706ee7",
                 "shasum": ""
             },
@@ -588,9 +588,9 @@
             "type": "yii2-extension",
             "autoload": {
                 "psr-4": {
-                    "bobjiang1988\\db\\": "db/",
-                    "bobjiang1988\\db\\tests\\": "db/tests/",
-                    "bobjiang1988\\console\\": "console/"
+                    "dmstr\\db\\": "db/",
+                    "dmstr\\db\\tests\\": "db/tests/",
+                    "dmstr\\console\\": "console/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -613,16 +613,16 @@
             "time": "2017-10-16T08:11:34+00:00"
         },
         {
-            "name": "bobjiang1988/yii2-helpers",
+            "name": "dmstr/yii2-helpers",
             "version": "0.4.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/bobjiang1988/yii2-helpers.git",
+                "url": "https://github.com/dmstr/yii2-helpers.git",
                 "reference": "c52132ad84c2e9c3036e7157e85baeb29408bf15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobjiang1988/yii2-helpers/zipball/c52132ad84c2e9c3036e7157e85baeb29408bf15",
+                "url": "https://api.github.com/repos/dmstr/yii2-helpers/zipball/c52132ad84c2e9c3036e7157e85baeb29408bf15",
                 "reference": "c52132ad84c2e9c3036e7157e85baeb29408bf15",
                 "shasum": ""
             },
@@ -632,7 +632,7 @@
             "type": "yii2-extension",
             "autoload": {
                 "psr-4": {
-                    "bobjiang1988\\helpers\\": "src/"
+                    "dmstr\\helpers\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1334,9 +1334,9 @@
             },
             "require": {
                 "cmrcx/phptidy": "^3.0",
-                "bobjiang1988/yii2-bootstrap": "^0.1.2 || ~0.2",
-                "bobjiang1988/yii2-db": "*",
-                "bobjiang1988/yii2-helpers": "*",
+                "dmstr/yii2-bootstrap": "^0.1.2 || ~0.2",
+                "dmstr/yii2-db": "*",
+                "dmstr/yii2-helpers": "*",
                 "friendsofphp/php-cs-fixer": "1.* || 2.*",
                 "yiisoft/yii2": "~2.0.4",
                 "yiisoft/yii2-codeception": "~2.0.0",
@@ -1345,7 +1345,7 @@
             "require-dev": {
                 "codeception/codeception": "^2.2",
                 "codeception/specify": "^0.4",
-                "bobjiang1988/yii2-web": "^0.4.2",
+                "dmstr/yii2-web": "^0.4.2",
                 "insolita/yii2-adminlte-widgets": "1.1.*",
                 "rmrevin/yii2-fontawesome": "2.*"
             },
