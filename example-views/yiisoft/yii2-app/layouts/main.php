@@ -24,7 +24,7 @@ if (Yii::$app->controller->action->id === 'login') {
 
     bobjiang1988\web\AdminLteAsset::register($this);
 
-    $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed2010/adminlte/dist');
+    $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/bobjiang1988/adminlte/dist');
     ?>
     <?php $this->beginPage() ?>
     <!DOCTYPE html>

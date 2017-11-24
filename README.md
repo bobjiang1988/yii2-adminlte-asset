@@ -6,7 +6,7 @@ AdminLTE Asset Bundle
 [![License](https://poser.pugx.org/dmstr/yii2-adminlte-asset/license.svg)](https://packagist.org/packages/dmstr/yii2-adminlte-asset)
 
 
-*Backend UI for Yii2 Framework, based on [AdminLTE](https://github.com/almasaeed2010/AdminLTE)*
+*Backend UI for Yii2 Framework, based on [AdminLTE](https://github.com/bobjiang1988/AdminLTE)*
 
 !["Yii2 AdminLTE Presentation"](https://cloud.githubusercontent.com/assets/874234/7603896/753228ee-f943-11e4-9d42-2a31b41eb42d.jpg)
 
@@ -98,12 +98,12 @@ Customization
 
 - Copy files from `vendor/bobjiang1988/yii2-adminlte-asset/example-views/yiisoft/yii2-app` (or other theme) to `@app/views`.
 - Remove the custom `view` configuration from your application by deleting the path mappings, if you have made them before.
-- Edit your views adhering to html markup `vendor/almasaeed2010/adminlte/pages`
+- Edit your views adhering to html markup `vendor/bobjiang1988/adminlte/pages`
 
 ### AdminLTE Plugins
 
 Assets for [AdminLTE plugins](https://almsaeedstudio.com/themes/AdminLTE/documentation/index.html#plugins) are not included
-in our `AdminLteAsset` but you can find these files in your vendor directory under `vendor/almasaeed2010/adminlte/plugins`.
+in our `AdminLteAsset` but you can find these files in your vendor directory under `vendor/bobjiang1988/adminlte/plugins`.
 So if you want to use any of them we recommend to create a custom bundle where you list the plugin files you need:
 
 
@@ -111,7 +111,7 @@ So if you want to use any of them we recommend to create a custom bundle where y
 use yii\web\AssetBundle;
 class AdminLtePluginAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/almasaeed2010/adminlte/plugins';
+    public $sourcePath = '@vendor/bobjiang1988/adminlte/plugins';
     public $js = [
         'datatables/dataTables.bootstrap.min.js',
         // more plugin Js here

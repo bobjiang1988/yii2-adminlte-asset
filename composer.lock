@@ -8,16 +8,16 @@
     "content-hash": "2e6e89d7f676354d3bc2fb7ad877e93b",
     "packages": [
         {
-            "name": "almasaeed2010/adminlte",
+            "name": "bobjiang1988/adminlte",
             "version": "v2.3.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/almasaeed2010/AdminLTE.git",
+                "url": "https://github.com/bobjiang1988/AdminLTE.git",
                 "reference": "1ee281b3b99e8d8cccdc72fb8437c6888149cb46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/1ee281b3b99e8d8cccdc72fb8437c6888149cb46",
+                "url": "https://api.github.com/repos/bobjiang1988/AdminLTE/zipball/1ee281b3b99e8d8cccdc72fb8437c6888149cb46",
                 "reference": "1ee281b3b99e8d8cccdc72fb8437c6888149cb46",
                 "shasum": ""
             },
