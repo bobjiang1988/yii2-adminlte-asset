@@ -14,12 +14,10 @@
             "email": "et.coder@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "2.*",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "cebe/yii2-gravatar": "1.*",
-        "almasaeed2010/adminlte": "dev-erp",
         "rmrevin/yii2-fontawesome": "~2.9"
     },
     "autoload": {
@@ -31,11 +29,5 @@
         "branch-alias": {
             "dev-master": "2.0.x-dev"
         }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/bobjiang1988/adminlte"
-        }
-    ]
+    }
 }
