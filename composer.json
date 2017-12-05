@@ -14,6 +14,7 @@
             "email": "et.coder@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "2.*",
         "yiisoft/yii2-bootstrap": "~2.0.0",
